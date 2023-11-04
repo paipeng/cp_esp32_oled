@@ -12,8 +12,8 @@ int demoMode = 0;
 int counter = 1;
 
 //OLED引脚定义
-#define SDA   23
-#define SCL   18
+#define SDA   22
+#define SCL   21
 SSD1306Wire display(0x3c, SDA, SCL);
 
 void setup(){
